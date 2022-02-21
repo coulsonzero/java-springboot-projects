@@ -1,0 +1,17 @@
+country: China
+
+server:
+  port: 80
+  # port: ${random.int(2000,8000)}
+
+baseDir: /Users/username
+tempDir: ${baseDir}/documents
+
+users:
+  -
+    name: David
+    age: 23
+  -
+    name: Shie
+    age: 20
+
