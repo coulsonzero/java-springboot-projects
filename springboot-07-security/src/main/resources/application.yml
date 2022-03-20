@@ -1,0 +1,16 @@
+
+server:
+  port: 80
+
+userName: Coulson
+userId: 1002
+
+
+spring:
+  security:
+    user:
+      name: admin
+      password: admin@123
+      roles:
+        - user
+        - admin

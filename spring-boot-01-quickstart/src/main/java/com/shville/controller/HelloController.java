@@ -4,13 +4,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+// 控制反转
 @RestController
+// 配置路由router("http://localhost/hello")
 @RequestMapping("/hello")
 public class HelloController {
 
+    // http请求 方式: get
     @GetMapping
     public String hello() {
-        System.out.println("SpringBoot is running!");
         return "Hello, SpringBoot !";
     }
 }

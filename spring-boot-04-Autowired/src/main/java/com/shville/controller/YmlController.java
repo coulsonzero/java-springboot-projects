@@ -14,7 +14,7 @@ public class YmlController {
     /**
      * 读取yml配置文件中的单个数据信息
      */
-    @Value("country")
+    @Value("${country}")
     private String country;
 
     @Value("${server.port}")

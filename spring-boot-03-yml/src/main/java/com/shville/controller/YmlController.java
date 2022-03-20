@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class YmlController {
 
-    @Value("country")
+    @Value("${country}")
     private String country;
 
     @Value("${server.port}")
