@@ -24,7 +24,7 @@ public class UserAuthService implements UserDetailsService {
         return User
                 .withUsername(data.getUsername())
                 .password(data.getUsername())
-                .roles(data.getRole())
+//                .roles(data.getRole())
                 .build();
     }
 }
