@@ -1,0 +1,15 @@
+
+server:
+  port: 443
+
+
+spring:
+  security:
+    user:
+      name: admin
+      password: admin@123
+      roles:
+        - user
+        - admin
+  mvc:
+    static-path-pattern: /static/**
